@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.homebutton:hover{
+    color: lightblue;
+    font-size: 30px;
+}
+
+.googlebutton:active{
+    color: red;
+    font-style: italic;
+
+}
+
+.overigebutton:visited{
+    color: yellow;
+}
+
+.textveld:focus{
+    color: green;
+    font-size: 20px;
+}
+
+.navigatiemenu{
+    display: flex;
+    justify-content: flex-start;
+    background-color:lightblue;
+}
+
+.navigatiemenu ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+    border: 5px solid white;
+}
+
+.navigatiemenu ul li a{
+    text-decoration: none;
+}
+
+.navigatiemenu ul li:hover{
+    background-color: yellow;
+}
+
+li .googlebutton{
+    background-color: grey;
+}
+
+.navigatiemenu ul li input:focus{
+    border: green solid 5px;
+}
